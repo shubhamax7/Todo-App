@@ -1,0 +1,20 @@
+.todoItemsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .todoItemsContainer {
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+  }
+}
+
